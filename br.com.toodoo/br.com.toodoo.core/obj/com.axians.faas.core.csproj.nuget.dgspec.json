@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.core/com.axians.faas.core.csproj": {}
+  },
+  "projects": {
+    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.core/com.axians.faas.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.core/com.axians.faas.core.csproj",
+        "projectName": "com.axians.faas.core",
+        "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.core/com.axians.faas.core.csproj",
+        "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
+        "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.sharedkernel/com.axians.faas.sharedkernel.csproj": {
+                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.sharedkernel/com.axians.faas.sharedkernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.sharedkernel/com.axians.faas.sharedkernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.sharedkernel/com.axians.faas.sharedkernel.csproj",
+        "projectName": "com.axians.faas.sharedkernel",
+        "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.sharedkernel/com.axians.faas.sharedkernel.csproj",
+        "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
+        "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.sharedkernel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.Result.FluentValidation": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

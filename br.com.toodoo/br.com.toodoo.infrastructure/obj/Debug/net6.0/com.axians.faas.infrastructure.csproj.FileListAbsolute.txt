@@ -1,0 +1,17 @@
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/com.axians.faas.infrastructure.csproj.AssemblyReference.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/com.axians.faas.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/com.axians.faas.infrastructure.AssemblyInfoInputs.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/com.axians.faas.infrastructure.AssemblyInfo.cs
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/com.axians.faas.infrastructure.csproj.CoreCompileInputs.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/bin/Debug/net6.0/com.axians.faas.infrastructure.deps.json
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/bin/Debug/net6.0/com.axians.faas.infrastructure.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/bin/Debug/net6.0/com.axians.faas.infrastructure.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/bin/Debug/net6.0/com.axians.faas.core.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/bin/Debug/net6.0/com.axians.faas.sharedkernel.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/bin/Debug/net6.0/com.axians.faas.core.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/bin/Debug/net6.0/com.axians.faas.sharedkernel.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/com.axians.faas.infrastructure.csproj.CopyComplete
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/com.axians.faas.infrastructure.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/refint/com.axians.faas.infrastructure.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/com.axians.faas.infrastructure.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/com.axians.faas.infrastructure/obj/Debug/net6.0/ref/com.axians.faas.infrastructure.dll

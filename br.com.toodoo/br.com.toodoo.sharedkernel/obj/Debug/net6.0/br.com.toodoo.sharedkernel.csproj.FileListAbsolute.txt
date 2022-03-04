@@ -1,0 +1,12 @@
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/bin/Debug/net6.0/br.com.toodoo.sharedkernel.deps.json
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/bin/Debug/net6.0/br.com.toodoo.sharedkernel.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/bin/Debug/net6.0/br.com.toodoo.sharedkernel.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/br.com.toodoo.sharedkernel.csproj.AssemblyReference.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/br.com.toodoo.sharedkernel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/br.com.toodoo.sharedkernel.AssemblyInfoInputs.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/br.com.toodoo.sharedkernel.AssemblyInfo.cs
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/br.com.toodoo.sharedkernel.csproj.CoreCompileInputs.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/br.com.toodoo.sharedkernel.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/refint/br.com.toodoo.sharedkernel.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/br.com.toodoo.sharedkernel.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/Debug/net6.0/ref/br.com.toodoo.sharedkernel.dll

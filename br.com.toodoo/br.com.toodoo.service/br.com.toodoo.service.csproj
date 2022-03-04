@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\br.com.toodoo.core\br.com.toodoo.core.csproj"/>
+        <ProjectReference Include="..\br.com.toodoo.infrastructure\br.com.toodoo.infrastructure.csproj"/>
+        <ProjectReference Include="..\br.com.toodoo.sharedkernel\br.com.toodoo.sharedkernel.csproj"/>
+    </ItemGroup>
+
+</Project>

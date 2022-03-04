@@ -1,0 +1,15 @@
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/bin/Debug/net6.0/br.com.toodoo.core.deps.json
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/bin/Debug/net6.0/br.com.toodoo.core.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/bin/Debug/net6.0/br.com.toodoo.core.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/bin/Debug/net6.0/br.com.toodoo.sharedkernel.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/bin/Debug/net6.0/br.com.toodoo.sharedkernel.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/br.com.toodoo.core.csproj.AssemblyReference.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/br.com.toodoo.core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/br.com.toodoo.core.AssemblyInfoInputs.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/br.com.toodoo.core.AssemblyInfo.cs
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/br.com.toodoo.core.csproj.CoreCompileInputs.cache
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/br.com.toodoo.core.csproj.CopyComplete
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/br.com.toodoo.core.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/refint/br.com.toodoo.core.dll
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/br.com.toodoo.core.pdb
+/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/Debug/net6.0/ref/br.com.toodoo.core.dll
