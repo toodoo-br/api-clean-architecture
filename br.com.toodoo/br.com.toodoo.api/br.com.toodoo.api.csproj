@@ -9,17 +9,22 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.1"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1"/>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.2">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\br.com.toodoo.core\br.com.toodoo.core.csproj"/>
-        <ProjectReference Include="..\br.com.toodoo.infrastructure\br.com.toodoo.infrastructure.csproj"/>
-        <ProjectReference Include="..\br.com.toodoo.service\br.com.toodoo.service.csproj"/>
-        <ProjectReference Include="..\br.com.toodoo.sharedkernel\br.com.toodoo.sharedkernel.csproj"/>
+        <ProjectReference Include="..\br.com.toodoo.core\br.com.toodoo.core.csproj" />
+        <ProjectReference Include="..\br.com.toodoo.infrastructure\br.com.toodoo.infrastructure.csproj" />
+        <ProjectReference Include="..\br.com.toodoo.service\br.com.toodoo.service.csproj" />
+        <ProjectReference Include="..\br.com.toodoo.sharedkernel\br.com.toodoo.sharedkernel.csproj" />
     </ItemGroup>
 
 </Project>

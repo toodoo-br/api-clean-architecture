@@ -659,24 +659,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/erikkillmonger/.nuget/packages/": {}
+    "C:\\Users\\Jeferson\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj",
+      "projectUniqueName": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj",
       "projectName": "br.com.toodoo.sharedkernel",
-      "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj",
-      "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
-      "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/",
+      "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj",
+      "packagesPath": "C:\\Users\\Jeferson\\.nuget\\packages\\",
+      "outputPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Jeferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -723,7 +733,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

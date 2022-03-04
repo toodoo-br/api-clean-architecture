@@ -16,7 +16,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(DomainToModel));
+
 builder.Services.AddScoped<IFormService, FormService>();
+builder.Services.AddScoped<IFieldService, FieldService>();
+
+builder.Services.AddScoped<IFieldRepository, FieldRepository>();
 builder.Services.AddScoped<IFormRepository, FormRepository>();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");

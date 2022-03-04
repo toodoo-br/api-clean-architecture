@@ -1,4 +1,5 @@
-﻿using br.com.toodoo.core.FormAggregate;
+﻿using br.com.toodoo.core.FieldAggregate;
+using br.com.toodoo.core.FormAggregate;
 using br.com.toodoo.sharedkernel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -18,5 +19,7 @@ internal class FormConfiguration : BaseEntityTypeConfiguration<Form>
         builder.Property(x => x.DateVersion).HasColumnName("data_versao");
         builder.Property(x => x.Active).HasColumnName("activo");
         builder.Property(x => x.Notes).HasColumnName("observacoes");
+        builder.HasMany(x => x.Fields);
+
     }
 }

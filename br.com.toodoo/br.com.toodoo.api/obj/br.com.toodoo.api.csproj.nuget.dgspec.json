@@ -1,42 +1,50 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.api/br.com.toodoo.api.csproj": {}
+    "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.api\\br.com.toodoo.api.csproj": {}
   },
   "projects": {
-    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.api/br.com.toodoo.api.csproj": {
+    "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.api\\br.com.toodoo.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.api/br.com.toodoo.api.csproj",
+        "projectUniqueName": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.api\\br.com.toodoo.api.csproj",
         "projectName": "br.com.toodoo.api",
-        "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.api/br.com.toodoo.api.csproj",
-        "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
-        "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.api/obj/",
+        "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.api\\br.com.toodoo.api.csproj",
+        "packagesPath": "C:\\Users\\Jeferson\\.nuget\\packages\\",
+        "outputPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jeferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj"
               },
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj"
               },
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.service/br.com.toodoo.service.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.service/br.com.toodoo.service.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.service\\br.com.toodoo.service.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.service\\br.com.toodoo.service.csproj"
               },
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj"
               }
             }
           }
@@ -61,7 +69,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -86,34 +104,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj": {
+    "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj",
+        "projectUniqueName": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj",
         "projectName": "br.com.toodoo.core",
-        "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj",
-        "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
-        "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/obj/",
+        "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj",
+        "packagesPath": "C:\\Users\\Jeferson\\.nuget\\packages\\",
+        "outputPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jeferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj"
               }
             }
           }
@@ -148,37 +174,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj": {
+    "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj",
+        "projectUniqueName": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj",
         "projectName": "br.com.toodoo.infrastructure",
-        "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj",
-        "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
-        "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/obj/",
+        "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Jeferson\\.nuget\\packages\\",
+        "outputPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jeferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj"
               },
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj"
               }
             }
           }
@@ -217,40 +251,48 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.service/br.com.toodoo.service.csproj": {
+    "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.service\\br.com.toodoo.service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.service/br.com.toodoo.service.csproj",
+        "projectUniqueName": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.service\\br.com.toodoo.service.csproj",
         "projectName": "br.com.toodoo.service",
-        "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.service/br.com.toodoo.service.csproj",
-        "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
-        "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.service/obj/",
+        "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.service\\br.com.toodoo.service.csproj",
+        "packagesPath": "C:\\Users\\Jeferson\\.nuget\\packages\\",
+        "outputPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jeferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj"
               },
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj"
               },
-              "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj": {
-                "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj"
+              "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj": {
+                "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj"
               }
             }
           }
@@ -279,26 +321,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj": {
+    "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj",
+        "projectUniqueName": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj",
         "projectName": "br.com.toodoo.sharedkernel",
-        "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj",
-        "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
-        "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/",
+        "projectPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj",
+        "packagesPath": "C:\\Users\\Jeferson\\.nuget\\packages\\",
+        "outputPath": "W:\\api-clean-architecture\\br.com.toodoo\\br.com.toodoo.sharedkernel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jeferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -345,7 +395,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using br.com.toodoo.core.FormAggregate;
+﻿using br.com.toodoo.core.FieldAggregate;
+using br.com.toodoo.core.FormAggregate;
 using Microsoft.EntityFrameworkCore;
 
 namespace br.com.toodoo.infrastructure.Database.Context;
@@ -11,4 +12,5 @@ public class DatabaseContext : DbContext
     }
 
     public DbSet<Form> Forms { get; set; }
+    public DbSet<Field> Fields { get; set; }
 }
