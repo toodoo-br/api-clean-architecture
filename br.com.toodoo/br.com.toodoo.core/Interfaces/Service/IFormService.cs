@@ -4,9 +4,10 @@ namespace br.com.toodoo.core.Interfaces.Service;
 
 public interface IFormService
 {
-    Task<Form> Add(Form form);
-    Task Delete(long formId);
+    Task<bool> Add(Form form);
+    Task<bool> UpdateAsync(Form form);
+    Task<bool> Delete(long formId);
     Task<Form?> GetByIdAsync(long id);
     Task<List<Form>> ListAsync();
-    Task<Form> UpdateAsync(Form form);
+    Task<Form> GetFormFields(long formId);
 }

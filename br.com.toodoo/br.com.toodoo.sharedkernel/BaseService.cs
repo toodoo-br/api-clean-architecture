@@ -1,28 +1,41 @@
 ﻿using br.com.toodoo.sharedkernel.Interfaces;
+using br.com.toodoo.sharedkernel.Notifications;
 using FluentValidation;
+using FluentValidation.Results;
 
 namespace br.com.toodoo.sharedkernel;
 
 public abstract class BaseService<T> : IBaseService<T> where T : BaseEntity
 {
-    private readonly IValidator<T> _validator;
+    private readonly INotifier _notifier;
 
-    protected BaseService()
+   
+    protected BaseService(INotifier notifier)
     {
+        _notifier = notifier;
     }
 
-    protected BaseService(IValidator<T> validator)
+    protected void Notificar(ValidationResult validationResult)
     {
-        _validator = validator;
+        foreach (var error in validationResult.Errors)
+        {
+            Notificar(error.ErrorMessage);
+        }
     }
 
-    protected virtual void Validade(T obj)
+    protected void Notificar(string mensagem)
     {
-        _validator.ValidateAndThrow(obj);
+        _notifier.Handle(new Notification(mensagem));
     }
 
-    protected virtual async Task ValidadeAsync(T obj)
+    protected bool ExecutarValidacao<TV, TE>(TV validacao, TE entidade) where TV : AbstractValidator<TE> where TE : T
     {
-        await _validator.ValidateAndThrowAsync(obj);
+        var validator = validacao.Validate(entidade);
+
+        if (validator.IsValid) return true;
+
+        Notificar(validator);
+
+        return false;
     }
 }

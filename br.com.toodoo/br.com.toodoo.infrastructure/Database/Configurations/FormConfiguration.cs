@@ -11,12 +11,31 @@ internal class FormConfiguration : BaseEntityTypeConfiguration<Form>
     {
         base.Configure(builder);
 
-        builder.Property(x => x.Id).HasColumnName("id").IsRequired().ValueGeneratedOnAdd();
-        builder.Property(x => x.Version).HasColumnName("versao");
-        builder.Property(x => x.Name).HasColumnName("nome");
-        builder.Property(x => x.FormCode).HasColumnName("codigo_formulario");
-        builder.Property(x => x.DateVersion).HasColumnName("data_versao");
-        builder.Property(x => x.Active).HasColumnName("activo");
-        builder.Property(x => x.Notes).HasColumnName("observacoes");
+        builder.Property(x => x.Id)
+            .HasColumnName("id")
+            .IsRequired()
+            .ValueGeneratedOnAdd();
+
+        builder.Property(x => x.Version)
+            .HasColumnName("versao");
+
+        builder.Property(x => x.Name)
+            .HasColumnName("nome");
+
+        builder.Property(x => x.FormCode)
+            .HasColumnName("codigo_formulario");
+
+        builder.Property(x => x.DateVersion)
+            .HasColumnName("data_versao");
+
+        builder.Property(x => x.Active)
+            .HasColumnName("activo");
+
+        builder.Property(x => x.Notes)
+            .HasColumnName("observacoes");
+
+        builder.HasMany(x => x.Fields)
+            .WithOne(x => x.Form)
+            .HasForeignKey(x => x.FormId);
     }
 }

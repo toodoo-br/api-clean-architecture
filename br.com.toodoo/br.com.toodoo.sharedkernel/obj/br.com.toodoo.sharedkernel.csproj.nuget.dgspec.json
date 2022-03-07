@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj": {}
+    "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj": {}
   },
   "projects": {
-    "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj": {
+    "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj",
+        "projectUniqueName": "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj",
         "projectName": "br.com.toodoo.sharedkernel",
-        "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj",
-        "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
-        "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/obj/",
+        "projectPath": "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj",
+        "packagesPath": "C:\\Users\\ancel\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.sharedkernel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ancel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

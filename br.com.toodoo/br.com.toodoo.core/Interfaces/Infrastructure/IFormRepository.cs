@@ -4,4 +4,5 @@ namespace br.com.toodoo.core.Interfaces.Infrastructure;
 
 public interface IFormRepository : IBaseRepository<Form>
 {
+    Task<Form> GetFormField(long id);
 }

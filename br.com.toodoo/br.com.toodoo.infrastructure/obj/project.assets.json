@@ -699,35 +699,41 @@
     ]
   },
   "packageFolders": {
-    "/Users/erikkillmonger/.nuget/packages/": {}
+    "C:\\Users\\ancel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj",
+      "projectUniqueName": "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj",
       "projectName": "br.com.toodoo.infrastructure",
-      "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/br.com.toodoo.infrastructure.csproj",
-      "packagesPath": "/Users/erikkillmonger/.nuget/packages/",
-      "outputPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.infrastructure/obj/",
+      "projectPath": "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.infrastructure\\br.com.toodoo.infrastructure.csproj",
+      "packagesPath": "C:\\Users\\ancel\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/erikkillmonger/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ancel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj": {
-              "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.core/br.com.toodoo.core.csproj"
+            "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj": {
+              "projectPath": "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.core\\br.com.toodoo.core.csproj"
             },
-            "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj": {
-              "projectPath": "/Users/erikkillmonger/Documents/git/toodoo/axians/Api/com.axians.faas/br.com.toodoo.sharedkernel/br.com.toodoo.sharedkernel.csproj"
+            "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj": {
+              "projectPath": "D:\\Projetos\\TestesProcessosSeletivos\\CloneTooDoo\\br.com.toodoo\\br.com.toodoo.sharedkernel\\br.com.toodoo.sharedkernel.csproj"
             }
           }
         }
@@ -766,7 +772,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

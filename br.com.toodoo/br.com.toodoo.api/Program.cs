@@ -4,6 +4,8 @@ using br.com.toodoo.core.Interfaces.Service;
 using br.com.toodoo.infrastructure.Database.Context;
 using br.com.toodoo.infrastructure.Repositories;
 using br.com.toodoo.service;
+using br.com.toodoo.sharedkernel.Interfaces;
+using br.com.toodoo.sharedkernel.Notifications;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,8 +18,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(DomainToModel));
+builder.Services.AddScoped<INotifier, Notifier>();
 builder.Services.AddScoped<IFormService, FormService>();
+builder.Services.AddScoped<IFieldService, FieldService>();
 builder.Services.AddScoped<IFormRepository, FormRepository>();
+builder.Services.AddScoped<IFieldRepository, FieldRepository>();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<DatabaseContext>(opt => opt.UseInMemoryDatabase("dbTest"));

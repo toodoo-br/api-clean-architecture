@@ -2,89 +2,85 @@ using AutoMapper;
 using br.com.toodoo.api.Models;
 using br.com.toodoo.core.FormAggregate;
 using br.com.toodoo.core.Interfaces.Service;
+using br.com.toodoo.sharedkernel.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace br.com.toodoo.api.Controllers;
 
-[ApiController]
 [Route("[controller]")]
 [Produces("application/json")]
-public class FormController : ControllerBase
+public class FormController : MainController
 {
     private readonly IFormService _formService;
     private readonly IMapper _mapper;
 
-    public FormController(IFormService formService, IMapper mapper)
+    public FormController(IFormService formService,
+                          IMapper mapper,
+                          INotifier notifier) : base(notifier)
     {
         _formService = formService;
         _mapper = mapper;
     }
 
     [HttpPost("add")]
-    [ProducesResponseType(typeof(FormModel), StatusCodes.Status201Created)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> AddForm([FromBody] FormModel formModel)
     {
-        if (!ModelState.IsValid) return BadRequest();
+        if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-        try
-        {
-            var form = _mapper.Map<Form>(formModel);
+        var form = _mapper.Map<Form>(formModel);
 
-            var result = await _formService.Add(form);
+        await _formService.Add(form);
 
-            return Created("form", _mapper.Map<FormModel>(result));
-        }
-        catch (Exception)
-        {
-            return BadRequest();
-        }
+        return CustomResponse(formModel);
     }
 
-    [HttpDelete("{formId}")]
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [HttpDelete("{formId:long}")]
     public async Task<IActionResult> DeleteForm([FromRoute] long formId)
     {
-        try
-        {
-            await _formService.Delete(formId);
+        var formModel = await GetForm(formId);
 
-            return Ok();
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
+        if (formModel == null) return NotFound();
+
+        await _formService.Delete(formId);
+
+        return CustomResponse(formModel);
     }
 
-    [HttpGet("")]
-    [ProducesResponseType(typeof(List<FormModel>), StatusCodes.Status200OK)]
+    [HttpGet]
     public async Task<IActionResult> GetForms()
     {
         var forms = await _formService.ListAsync();
 
-        return Ok(_mapper.Map<List<FormModel>>(forms));
+        return CustomResponse(_mapper.Map<List<FormModel>>(forms));
     }
 
-    [HttpPut("update/{formId}")]
-    [ProducesResponseType(typeof(FormModel), StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [HttpGet("{formId:long}")]
+    [ProducesResponseType(typeof(List<FormModel>), StatusCodes.Status200OK)]
+    public async Task<FormModel> GetFormFields(long formId)
+    {
+        return _mapper.Map<FormModel>(await _formService.GetFormFields(formId));
+    }
+
+    [HttpPut("update/{formId:long}")]
     public async Task<IActionResult> UpdateForm([FromBody] FormModel formModel, [FromRoute] long formId)
     {
-        if (!ModelState.IsValid) return BadRequest();
-
-        try
+        if (formId != formModel.Id)
         {
-            var form = _mapper.Map<Form>(formModel);
-
-            await _formService.UpdateAsync(form);
-
-            return Ok();
+            NotificarErro("O id informado não é o mesmo que foi passado na query");
+            return CustomResponse(formModel);
         }
-        catch (Exception)
-        {
-            return BadRequest();
-        }
+
+        if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+        var form = _mapper.Map<Form>(formModel);
+
+        await _formService.UpdateAsync(form);
+
+        return CustomResponse(formModel);
+    }
+
+    private async Task<FormModel> GetForm(long formId)
+    {
+        return _mapper.Map<FormModel>(await _formService.GetByIdAsync(formId));
     }
 }
